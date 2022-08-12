@@ -1,0 +1,206 @@
+
+body{
+    font-family: 'Norwester', "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    color: #37383a;
+    line-height: 1;
+    background-color: #F6F4F2;
+    background-image: url("https://img.olympicchannel.com/images/image/private/t_16-9_760/primary/nztbbdryo2xg18wfqln3"); 
+    background-blend-mode: overlay;
+   }
+  
+  #main{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  header{
+    height: 400px;
+    width: 100%;
+    background-color: #3FD2C7;
+    margin: 0;
+   }
+  
+  #img-div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:400px;
+    background-color: #3FD2C7;
+    background-image: url("https://p1-tt.byteimg.com/origin/tos-cn-i-qvj2lq49k0/d10f5d073683488d9f68fce60638b9f0.jpg"); 
+    background-blend-mode: overlay;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    color: black;
+    font-family: 'Norwester', sans-serif, serif;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+  }
+  h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    line-height: 0.5;
+    font-size: 25px;
+    letter-spacing: 3.5px;
+    color: #e5ebe7;
+  }
+  
+  h1{
+    margin-bottom: 10px;
+    font-family: 'Norwester', sans-serif, serif;
+    text-transform: uppercase;
+    color: #00458B;
+    font-size:5rem;
+    line-height: 1;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 8px;
+    margin-left: -10px;
+    }
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+  }
+  
+  .row::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  .tribute-info{
+    width:1000px;
+    height: 900px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .TXT{
+    flex:1.5;
+    margin-top: 20px;
+  }
+  
+  .TXT h2{
+    font-family: 'Norwester', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    color: #00458B;
+  }
+  
+  .pText{
+    font-family: 'Norwester', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 180%;
+    text-align: justify;
+    text-justify: inter-word;
+  
+  }
+  aside {
+  width: 30%;
+  max-width: 300px;
+  min-width:  150px;
+  float: right;
+  background-color: #00458B;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/4MuNpA8BoLmiUZcz9KikxB-1200-80.jpg.webp");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 25% / 10%;
+  }
+  
+  .sidebar{
+    flex:1;
+    margin-top: 100px;
+    height: 500px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .alignbar{
+    margin-top: 40px;
+    padding-left: 20px;  
+  }
+  
+  .barTXT{
+    margin: 0;
+    color: #99DDFF;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .sum{
+    margin: 0;
+    color: white;
+    font-family: 'Norwester', serif;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.5rem;
+   }
+  
+  a{
+    text-decoration: none;
+    color:#5b84c8;
+  }
+  .line{
+    margin-bottom:10px;
+    height: 40px;
+    width: 150px;
+    border-bottom: 2px solid white;
+  }
+  
+  .last-row {
+    background-color: #00458B;
+    color: #e5ebe7;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #tribute-link-dash {
+    text-decoration: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  #tribute-link:hover #tribute-link-dash {
+    animation-name: tribute-link-dash-move;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .footer {
+    font-family: 'Norwester';
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  
+  
