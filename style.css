@@ -21,7 +21,16 @@ header{
   background-color: #39603D;
   margin-left: 0;
  }
-
+#img-caption{
+  color: #3C403D;
+  font-family: 'Norwester', sans-serif, serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: center;
+  color: #f2f2f2; background: #39603D; padding: 2px;
+}
 #img-div{
   display:flex;
   flex-direction: row;
@@ -34,34 +43,34 @@ header{
   background-size: cover;
   margin: 0 auto;
   width: 1000px;
-  color: #3C403D;
-  font-family: 'Norwester', sans-serif, serif;
-  letter-spacing: 1px;
-  font-weight: 900;
 }
+
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
   line-height: 0.5;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 900;
   letter-spacing: 2.5px;
-  color: #e5ebe7;
+  color: #39603D;
+  margin-left: 30px;
+  margin-bottom: 0;
 }
 
 h1{
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5px;
-  font-family: 'Norwester', sans-serif, serif;
+  margin-left: 50px;
+  font-family: "Norwester", sans-serif, serif;
   text-transform: uppercase;
   color: #39603D;
-  font-size:8rem;
-  line-height: 1;
+  font-size:7rem;
+  line-height: 1.2;
   font-weight: 900;
   font-style: normal;
-  letter-spacing: 4px;
-  margin-left: -10px;
-  -webkit-text-stroke: 3px white; /* width and color */
-  }
+  letter-spacing: 3px;
+  -webkit-text-stroke: 3px white;
+}
 
 * {
 	box-sizing: border-box;
@@ -79,7 +88,6 @@ h1{
 	display: table;
 	clear: both;
 }
-
 
 .tribute-info{
   width: 1000px;
@@ -103,7 +111,6 @@ h1{
   letter-spacing: 2px;
   margin-bottom: 10px;
   margin-top: 10px;
-  color: #f2f2f2; background: #39603D; padding: 2px;
 }
 
 .pText{
@@ -122,12 +129,13 @@ max-width: 300px;
 min-width:  150px;
 float: right;
 background-color: #aeba7d;
+background-image: url("https://img.freepik.com/free-vector/hand-holding-trophy-continuously-drawing-one-line-premium-achievement-symbol-vector_615031-362.jpg");
+background-blend-mode: multiply;
 background-repeat: no-repeat;
 justify-content: center;
 margin-left: 50px;
 border-radius: 25% / 10%;
 box-shadow: 10px 5px 5px #39603D;
-box-shadow: inset 8em 12em #A3BCB6;
 }
 
 .sidebar{
@@ -234,18 +242,21 @@ blockquote {
   -webkit-transform: scale(1.5);
   transform: scale(1.5)
 }
-
+    
 .iframe-container{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding: 0% 0% 56.25%; 
   height: 0;
+  margin: auto;
+  display: block;
+  overflow: hidden;
 }
-  
+
 .iframe-container iframe{
   position: absolute;
-  top:0;
-  left: 0;
+  top: 0; bottom: 0; left: 0;
   width: 100%;
   height: 100%;
+  border: 0;
 }
