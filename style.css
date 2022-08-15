@@ -44,7 +44,6 @@ header{
   margin: 0 auto;
   width: 1000px;
 }
-
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
@@ -68,9 +67,8 @@ h1{
   line-height: 1.2;
   font-weight: 900;
   font-style: normal;
-  letter-spacing: 3px;
-  -webkit-text-stroke: 3px white;
-}
+  -webkit-text-stroke: 3px white; /* width and color */
+  }
 
 * {
 	box-sizing: border-box;
@@ -91,7 +89,7 @@ h1{
 
 .tribute-info{
   width: 1000px;
-  height: 1200px;
+  height: 1650px;
   margin: 0 auto;
   display:flex;
   flex-direction: row;
@@ -118,10 +116,12 @@ h1{
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
-  line-height: 180%;
+  line-height: 150%;
   text-align: justify;
   text-justify: inter-word;
-
+  padding: 25px;
+  background: #A3BCB6; opacity: 0.9;
+  box-shadow: 10px 5px 5px #39603D;
 }
 aside {
 width: 30%;
@@ -140,8 +140,8 @@ box-shadow: 10px 5px 5px #39603D;
 
 .sidebar{
   flex:1;
-  margin-top: 80px;
-  height: 450px;
+  margin-top: 60px;
+  height: 500px;
   display:flex;
   flex-direction: row;
   align-items: flex-start;
@@ -184,7 +184,7 @@ a{
 }
 
 .last-row {
-  background-color: #39603D;
+  background-color: #39603D; opacity: 0.8;
   color: #e5ebe7;
   padding: 2rem;
   text-align: center;
@@ -259,4 +259,61 @@ blockquote {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Timeline Container */
+.timeline {
+  background: #A3BCB6; opacity: 0.7;
+  margin: 20px auto;
+  padding: 25px;
+  box-shadow: 10px 5px 5px #39603D;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 4px solid #3C403D;
+  margin-left: 140px;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 8px 20px;
+  padding: 10px;
+  background: #FFFFFF;
+  color: #39603D;
+  border-radius: 5px;
+  max-width: 300px;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Title of the card */
+.title {
+  color: #3C403D; 
+  position: relative;
+  font-size: 1rem;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #3C403D;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px orangered;
 }
